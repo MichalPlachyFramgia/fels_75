@@ -302,6 +302,7 @@ class User implements UserInterface
 
         return $this;
     }
+
     /**
      * Get oldPassword
      *

@@ -37,6 +37,6 @@ ElearningBundle\Entity\User:
                     on: update
     lifecycleCallbacks: {  }
     oneToMany:
-         lessons:
-             targetEntity: Lesson
-             mappedBy: user
+        lessons:
+            targetEntity: Lesson
+            mappedBy: user

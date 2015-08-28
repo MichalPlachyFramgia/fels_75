@@ -19,7 +19,7 @@ ElearningBundle\Entity\Relationship:
                 timestampable:
                     on: update
     lifecycleCallbacks: {  }
-    oneToOne:
+    manyToOne:
         follower:
             targetEntity: User
             joinColumn:
